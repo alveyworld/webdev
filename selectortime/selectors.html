@@ -11,23 +11,48 @@
 		p {
 			color: magenta;
 		}
-		p.sidenote {
+		div {
+			background: grey;
+		}
+		#notes {
+			background: lightgreen;
+		}
+		.sidenote p {
 			color: pink;
 			font-size: 70%;
+		
+		}
+		
+		#content {
+			border: 5px solid orange;
+			padding: 20px;
+			padding-top: 10px;
 		}
 	</style>
 </head>
 <body>
 	<h1 id="maintitle">Selectors are fun!</h1>
-	<p class="sidenote">They help you style pages.</p>
-	<p class="sidenote">They use the id attribute for unique elements</p>
-	<p class="sidenote">They use the class attribute for sets of similar items</p>
-	<p class="sidenote">The # is for ids and the . is for classes</p>
 	
+	<div id="content">
+		<div id="notes" class="sidenote">
+			<p>They help you style pages.</p>
+			<p>They use the id attribute for unique elements</p>
+			<p>They use the class attribute for sets of similar items</p>
+			<p>The # is for ids and the . is for classes</p>
+		</div>
 	
-	<h1>Things to do if you don't know what to do:</h1>
-	<p>Codecademy</p>
-	<p>W3schools.com</p>
-	<p>photoshop</p>
+		<div>
+			<h1>Things to do if you don't know what to do:</h1>
+			<p>Codecademy</p>
+			<p>W3schools.com</p>
+			<p>photoshop</p>
+		</div>
+	</div>
 </body>
 </html>
+
+
+
+
+
+
