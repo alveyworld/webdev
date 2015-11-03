@@ -20,7 +20,7 @@
 			#content {
 				width: 1000px;
 				height: 700px;
-				background: yellow;
+				background: maroon;
 				margin: 62px;
 			}
 			article {
@@ -57,6 +57,38 @@
 				height: 100px;
 				background: cyan;
 			}
+			
+			nav ul {
+				padding: 0px;
+			}
+			
+			nav > ul > li {
+				display: inline;
+				color: white;
+				margin-right: 15px;
+				margin-left: 15px;
+				border-left: 2px solid white;
+				border-right: 2px solid white;
+				padding: 0px 12px 0px 12px;
+				font-size: 22px;
+			}
+			
+			nav > ul > li:hover > ul{
+				display: block;
+			
+			}
+			
+			.drop {
+				float: left;
+				margin: -93px 36px;
+				display: none;
+			
+				padding: 0px;
+				background-color: lightpink;
+				position: relative;
+				top: 130px;
+			}
+			
 		</style>
 	</head>
 	<body>
@@ -67,7 +99,25 @@
 			<div id="logo">Logo</logo>
 			This is the Header
 			</header>
-			<nav>option 1 | option 2 | option 3 | option 4</nav>
+			<nav>
+				<ul>
+					<li>Orange Chicken
+						<ul class="drop">
+							<li>Hot</li>
+							<li>Fire</li>
+							<li>Mild</li>
+							<li>Scorching</li>
+							<li>Caliente</li>
+							<li>Wimpy</li>
+						</ul>
+					</li>
+					<li>Chow Mein</li>
+					<li>Pot stickers</li>
+					<li>Lo Mein</li>
+					<li>Broccoli and Beef</li>
+					<li>Rice</li>
+				</ul>
+			</nav>
 			<div id="content">
 				<article>
 					<h3>Pizza Tacos are back!</h3>
@@ -80,12 +130,7 @@
 			</div>
 			<footer>Copyright Alveyworld 2015 &copy;</footer>
 			
-			<p>Normal HTML here.</p>
-<svg xmlns="http://www.w3.org/2000/svg">
-  <circle r="50" cx="50" cy="50" fill="red"/>
-  <rect x="120" y="5" width="90" height="90"
-        stroke="blue" fill="none"/>
-</svg>
+			
 		</div>
 	</body>
 </html>
