@@ -28,7 +28,7 @@
 		article {
 			width: 500px;
 			height: 300px;
-			background: red;
+			background: lightblue;
 			float: left;
 			margin: 50px;
 		}
@@ -59,10 +59,10 @@
 			margin: auto;
 			background: purple;
 		}
-		ul {
+		nav ul {
 			margin: 0px;
 		}
-		li {
+		nav ul#top > li {
 			display: inline;
     		font-size: 24px;
     		color: chocolate;
@@ -72,6 +72,23 @@
     		padding: 0px 35px;
     		margin: 3px;
 		}
+		
+		.drop {
+			float: left;
+			margin: -93px 36px;
+			display: none;
+			
+			padding: 0px;
+			background-color: lightpink;
+			position: relative;
+			top: 130px;
+		}
+		
+		nav ul#top > li:hover > ul {
+			color: blue;
+			display: block;
+		}
+		
 	</style>
 </head>
 <body>
@@ -81,8 +98,15 @@
 			<div id="logo">Logo</div>Header
 		</header>
 		<nav>
-			<ul>
-				<li>Lasagna</li>
+			<ul id="top">
+				<li>
+					Lasagna
+					<ul class="drop">
+						<li>Vegan</li>
+						<li>Vegetarian</li>
+						<li>Super Loaded Meaty</li>
+					</ul>
+				</li>
 				<li>Spaghetti</li>
 				<li>Linguini</li>
 				<li>Pizza</li>
@@ -92,7 +116,16 @@
 			</ul>
 		</nav>
 		<div id="content">
-			<article>this is an article</article>
+			<article>
+				<h2>Today's Specials</h2>
+				<ul>
+					<li>Potatoes</li>
+					<li>Ministroni</li>
+					<li>Calzone</li>
+					<li>Pesto Chicken</li>
+					<li>Rattatooi</li>
+				</ul>
+			</article>
 			<section>this is a section</section>
 		</div>
 		<footer>Copy Alveyworld 2015 &copy; </footer>
