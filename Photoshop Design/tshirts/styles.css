@@ -1,9 +1,10 @@
 body {
 	background: white;
+	margin: 0;
 }
 
 header {
-	background: blue;
+	background: black;
 	width: 1400px;
 	height: 75px;
 	margin: 0px 0px 35px 0px;
