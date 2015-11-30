@@ -22,7 +22,7 @@ header {
 	background: pink;
 	height: 42px;
 	width: 400px;
-	margin: auto;
+	margin: 30px auto 40px auto;
 }
 
 #slideshow {
