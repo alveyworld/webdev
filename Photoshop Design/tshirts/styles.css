@@ -1,0 +1,36 @@
+body {
+	background: white;
+}
+
+header {
+	background: blue;
+	width: 1400px;
+	height: 75px;
+	margin: 0px 0px 35px 0px;
+}
+
+footer {
+	background: green;
+	height: 110px;
+	width: 1400px;
+	margin: 75px 0px 75px 0px;
+}
+
+#page {
+	width: 1400px;
+	margin: auto;
+}
+
+#slideshow {
+	width: 1400px;
+	height: 390px;
+	background: pink;
+	margin: 0px 0px 20px 0px;
+}
+
+#content {
+	width: 1180px;
+	min-height: 500px;
+	background: purple;
+	margin: auto;
+}
