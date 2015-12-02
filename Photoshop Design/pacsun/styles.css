@@ -4,10 +4,33 @@ body {
 }
 
 header {
-	background: #d9d9d9;
+	background: #f4f4f4;
 	height: 160px;
 	width: 100%;
 }
+
+header form {
+	float: right;
+}
+
+header form input {
+	font-size: 21px;
+}
+
+header #logo {
+	float: left;
+	margin: auto;
+}
+
+header button {
+	float: left;
+	font-size: 15px;
+	border: none;
+	background: #6dcff6;
+	color: white;
+	padding: 5px;
+}
+
 #content {
 	width: 960px;
 	margin: auto;
@@ -16,6 +39,26 @@ header {
 	background: black;
 	height: 35px;
 	width: 100%;
+	font-family: Arial, Verdana, sans-serif;
+}
+
+#topbar ul {
+	margin: 0;
+	color: white;
+    float: right;
+}
+
+#topbar ul a {
+	color: white;
+	text-decoration: none;
+}
+
+#topbar li {
+	display: inline-block;
+    border-right: white solid 2px;
+    padding: 5px 10px;
+    height: 25px;
+    vertical-align: top;
 }
 
 #menwomen {
