@@ -9,6 +9,10 @@ header {
 	width: 100%;
 }
 
+#logostuff {
+	padding-top: 20px;
+}
+
 header form {
 	float: right;
 }
