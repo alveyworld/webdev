@@ -45,18 +45,26 @@ header ul li {
     height: 32px;
 }
 
-header a {
+header a, footer a {
     color: white;
     font-size: 21px;
     text-decoration: none;
 }
 
+
+
 footer {
-	background: green;
+	background: black;
 	height: 110px;
 	width: 1400px;
 	margin: 75px 0px 75px 0px;
+	color: white;
+	font-size: 21px;
+	text-align: center;
 }
+
+
+
 
 #page {
 	width: 1400px;
@@ -73,6 +81,10 @@ footer {
 #content {
 	width: 1180px;
 	min-height: 500px;
-	background: purple;
+	background: white;
 	margin: auto;
+}
+
+#content img.tshirt {
+	width: 32%;
 }
